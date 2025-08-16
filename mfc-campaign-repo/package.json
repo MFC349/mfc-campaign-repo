@@ -1,0 +1,21 @@
+{
+  "name": "mfc-campaign",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/generate_metricool_csv.js",
+    "build:csv": "node scripts/generate_metricool_csv.js",
+    "links": "node scripts/inject_links.js data/metricool.csv data/links.json > data/metricool_linked.csv",
+    "lint": "eslint .",
+    "format": "prettier -w .",
+    "test": "jest --runInBand",
+    "test:ci": "jest --ci --coverage",
+    "bughunt": "node scripts/bughunt.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3"
+  }
+}

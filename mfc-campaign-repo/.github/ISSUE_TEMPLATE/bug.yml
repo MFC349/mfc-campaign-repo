@@ -1,0 +1,20 @@
+name: Bug report
+description: Help us reproduce and fix it fast.
+labels: [bug]
+body:
+  - type: input
+    id: commit
+    attributes: { label: Commit SHA, placeholder: e.g. a1b2c3d }
+  - type: textarea
+    id: repro
+    attributes: { label: Steps to reproduce, description: Exact commands, input, URLs }
+    validations: { required: true }
+  - type: textarea
+    id: expected
+    attributes: { label: Expected behavior }
+  - type: textarea
+    id: actual
+    attributes: { label: Actual behavior (logs, stacktraces) }
+  - type: input
+    id: env
+    attributes: { label: Environment, placeholder: Node 20, Ubuntu 22.04 }

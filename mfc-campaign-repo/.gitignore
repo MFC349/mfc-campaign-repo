@@ -1,0 +1,11 @@
+node_modules/
+npm-debug.log*
+yarn-*.log*
+pnpm-debug.log*
+.DS_Store
+.vscode/
+exports/
+dist/
+Thumbs.db
+*.ccexport
+*.ccbackup

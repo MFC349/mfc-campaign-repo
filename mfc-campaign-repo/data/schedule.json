@@ -1,0 +1,16 @@
+{
+  "start_date": "2025-08-13",
+  "weeks": 24,
+  "times": {
+    "tiktok": "09:00",
+    "instagram": "11:00",
+    "facebook": "11:00",
+    "linkedin": "09:00"
+  },
+  "days_of_week": {
+    "tiktok": "WEDNESDAY",
+    "instagram": "FRIDAY",
+    "facebook": "FRIDAY",
+    "linkedin": "THURSDAY"
+  }
+}

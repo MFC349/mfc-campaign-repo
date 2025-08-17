@@ -1,0 +1,17 @@
+{
+  "timezone": "America/Vancouver",
+  "posts": [
+    {
+      "date": "2025-08-20",
+      "time": "10:30",
+      "slug": "week1-forge",
+      "platform": "tiktok"
+    },
+    {
+      "date": "2025-08-20",
+      "time": "10:35",
+      "slug": "week1-forge",
+      "platform": "instagram"
+    }
+  ]
+}

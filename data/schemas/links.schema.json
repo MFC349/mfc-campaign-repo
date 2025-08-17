@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Links",
+  "type": "object",
+  "properties": {
+    "media": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "slug",
+          "media_url"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string"
+          },
+          "media_url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "media"
+  ]
+}
